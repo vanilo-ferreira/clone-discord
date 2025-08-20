@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 459px;
+  background: url("/src/assets/images/headerBackground.svg") no-repeat;
+  background-size: cover;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Luckiest Guy", cursive;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 313px;
+  margin-bottom: 30px;
+}
+
+header p {
+  width: 757px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header button {
+  height: 44px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  background-color: #23272a;
+  color: #ffffff;
+  padding: 0 20px;
+  border: none;
+  border-radius: 25px;
+  margin: 5px;
+}
+
+header button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bt-download {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.bt-download:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
