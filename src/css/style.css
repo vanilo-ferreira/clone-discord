@@ -59,19 +59,30 @@ header button {
   margin: 5px;
 }
 
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 header button:hover {
   background-color: #000000;
-  color: #ffffff;
 }
 
 .bt-download {
-  background-color: #000000;
+  background-color: #ffffff;
+}
+
+.bt-download  {
+  color: #000000;
+}
+
+a .bt-download:hover {
   color: #ffffff;
 }
 
+
 .bt-download:hover {
-  background-color: #ffffff;
-  color: #000000;
+  background-color: #000000;
 }
 
 body section {
